@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title" class="text-center">freeCodeCamp Survey</h1>
+    <p id="description">Short explanation with the id</p>
+
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name <input id="name" type="text" name="name"
+                    placeholder="Enter your name" required></label>
+            <label for="email" id="email-label">Email<input id="email" type="email" name="email"
+                    placeholder="Enter your email" required>
+                <label for="number" id="number-label">Age (optional): <input id="number" type="number" name="age"
+                        min="13" max="120" placeholder="69" /></label>
+        </fieldset>
+        <fieldset>
+            <legend>bienvenidos al himalaya</legend>
+            <select id="dropdown">
+                <option>che kn sos</option>
+                <option>k mira bobo</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>options</legend>
+            <label for="opciones"><input id="opciones" type="radio" name="opciones" value="1" checked /> uno</label>
+            <label for="opciones"><input id="opciones" type="radio" name="opciones" value="2" checked /> dos</label>
+        </fieldset>
+        <fieldset>
+            <legend>arica</legend>
+            <select id="dropdown">
+                <option value="3">pemierda</option>
+                <option value="4">pqnoteponesunarete</option>
+                <option value="5">pqmjrnoteponesunallanta</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="checkboxes"> <input type="checkbox" id="checkbox" name="cajita" value="6"> primera opción
+            </label>
+            <label for="checkboxes"> <input type="checkbox" id="checkbox" name="cajita" value="7"> segunda opción
+            </label>
+            <label for="checkboxes"> <input type="checkbox" id="checkbox" name="cajita" value="8"> tercera opción
+            </label>
+        </fieldset>
+        <fieldset>
+            <textarea id="text" name="textus" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </fieldset>
+        <fieldset>
+            <input id="submit" type="submit" value="Submit" />
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
